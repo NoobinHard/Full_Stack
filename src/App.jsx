@@ -5,6 +5,9 @@ import './App.css'
 import Saudacao from './components/Saudacao'
 import Rodape from './components/Rodape'
 import Alerta from './components/Alerta/Alerta'
+import LoginButton from './components/LoginButton/LoginButton'
+import EmailInput from './components/EmailInput/EmailInput'
+import PasswordInput from './components/PasswordInput'
 
 function App() {
  /*  const nome = "José"
@@ -19,6 +22,10 @@ function App() {
       <Saudacao/>
       <Rodape/>
       <Alerta/> 
+
+      <EmailInput/>
+      <PasswordInput/>
+      <LoginButton/>
       
 
     </div>

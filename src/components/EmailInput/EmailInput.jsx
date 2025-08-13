@@ -2,7 +2,7 @@
 
 function EmailInput() {
     return(
-        <input type="text"></input>
+        <input type="Email" ></input>
     )
 }
 export default EmailInput
