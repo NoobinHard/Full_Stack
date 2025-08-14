@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+#glysera{
+  color:  white;
+  font-size: 100px;
+}
+#tituloPagina{
+  color: #fffc9b;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

@@ -5,7 +5,7 @@ import EmailInput from "../EmailInput/EmailInput";
 function EmailField(){
     return (
         <div>
-        <label>Email</label>
+        <label>CPF</label>
         <EmailInput/>
         </div>
     );

@@ -21,7 +21,8 @@ function App() {
 
   return (
     <div >
-      <h1>Aula de react</h1>
+      <h1 id="glysera">Glysera</h1>
+      <h2 id="tituloPagina">Controle de acesso</h2>
       {/* <Saudacao/>
       <Rodape/>
       <Alerta/> 
