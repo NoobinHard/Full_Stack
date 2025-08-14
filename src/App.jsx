@@ -8,6 +8,9 @@ import Alerta from './components/Alerta/Alerta'
 import LoginButton from './components/LoginButton/LoginButton'
 import EmailInput from './components/EmailInput/EmailInput'
 import PasswordInput from './components/PasswordInput'
+import EmailField from './components/EmailField/EmailField'
+import PassworldField from './components/PasswordField/PasswordField'
+import LoginForm from './components/LoginForm/LoginForm'
 
 function App() {
  /*  const nome = "José"
@@ -19,14 +22,17 @@ function App() {
   return (
     <div >
       <h1>Aula de react</h1>
-      <Saudacao/>
+      {/* <Saudacao/>
       <Rodape/>
       <Alerta/> 
 
       <EmailInput/>
+      <EmailField/>
+      <PassworldField/>
       <PasswordInput/>
       <LoginButton/>
-      
+       */}
+    <LoginForm/>
 
     </div>
     

@@ -3,8 +3,8 @@ import styles from './LoginButton.module.css'
 function LoginButton() {
     return(
         <div>
-        <button ClassName={styles.botaoLogin}>Entrar</button>
-        <placeholder></placeholder>
+        <button className={styles.botaoLogin}>Entrar</button>
+        
         </div>
     )
 }
