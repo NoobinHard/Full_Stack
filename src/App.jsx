@@ -11,6 +11,7 @@ import PasswordInput from './components/PasswordInput'
 import EmailField from './components/EmailField/EmailField'
 import PassworldField from './components/PasswordField/PasswordField'
 import LoginForm from './components/LoginForm/LoginForm'
+import Contador from './components/Contador'
 
 function App() {
  /*  const nome = "José"
@@ -21,8 +22,8 @@ function App() {
 
   return (
     <div >
-      <h1 id="glysera">Glysera</h1>
-      <h2 id="tituloPagina">Controle de acesso</h2>
+      {/* <h1 id="glysera">Glysera</h1>
+      <h2 id="tituloPagina">Controle de acesso</h2> */}
       {/* <Saudacao/>
       <Rodape/>
       <Alerta/> 
@@ -33,8 +34,8 @@ function App() {
       <PasswordInput/>
       <LoginButton/>
        */}
-    <LoginForm/>
-
+   {/*  <LoginForm/> */}
+      <Contador/>
     </div>
     
   )   
