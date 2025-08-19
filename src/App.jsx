@@ -12,6 +12,8 @@ import EmailField from './components/EmailField/EmailField'
 import PassworldField from './components/PasswordField/PasswordField'
 import LoginForm from './components/LoginForm/LoginForm'
 import Contador from './components/Contador'
+import FormularioContato from './components/FormularioContato'
+import FiltroProdutos from './components/FiltroProdutos'
 
 function App() {
  /*  const nome = "José"
@@ -36,6 +38,9 @@ function App() {
        */}
    {/*  <LoginForm/> */}
       <Contador/>
+      <hr></hr>
+      <FormularioContato/>
+      <FiltroProdutos/>
     </div>
     
   )   
