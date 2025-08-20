@@ -14,6 +14,7 @@ import LoginForm from './components/LoginForm/LoginForm'
 import Contador from './components/Contador'
 import FormularioContato from './components/FormularioContato'
 import FiltroProdutos from './components/FiltroProdutos'
+import ModoEscuro from './components/ModoEscuro/ModoEscuro'
 
 function App() {
  /*  const nome = "José"
@@ -41,6 +42,7 @@ function App() {
       <hr></hr>
       <FormularioContato/>
       <FiltroProdutos/>
+      <ModoEscuro/>
     </div>
     
   )   
