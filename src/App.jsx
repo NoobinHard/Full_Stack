@@ -15,6 +15,7 @@ import Contador from './components/Contador'
 import FormularioContato from './components/FormularioContato'
 import FiltroProdutos from './components/FiltroProdutos'
 import ModoEscuro from './components/ModoEscuro/ModoEscuro'
+import Carrinho from './components/Carrinho/Carrinho'
 
 function App() {
  /*  const nome = "José"
@@ -43,6 +44,7 @@ function App() {
       <FormularioContato/>
       <FiltroProdutos/>
       <ModoEscuro/>
+      <Carrinho/>
     </div>
     
   )   

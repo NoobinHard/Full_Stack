@@ -5,7 +5,9 @@ function ModoEscuro(){
     const [modoNoturno, setModoNoturno] = useState(false)
     return (
         <div className={modoNoturno ?  styles.dark : styles.light}>
-            <button onClick={() => setModoNoturno(!modoNoturno)}>Ligar/Desligar</button>
+            <h1>Teste</h1>
+            <p>Aqui é o conteúdo</p>
+            <button className={styles.botao} onClick={() => setModoNoturno(!modoNoturno)}>Ligar/Desligar</button>
         </div>
     )
 };
